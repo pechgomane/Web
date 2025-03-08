@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Car</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap" rel="stylesheet">
+     <!-- Swiper CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+          <a href="index.html">EV CAR</a>
+      </div>
+      <div class="menu">
+          <ul>
+            <li class="dropdown">
+              <a href="Type.html">Type</a>
+              <ul class="dropdown-menu">
+                  <li><a href="Sedan.html">Sedan</a></li>
+                  <li><a href="SUV.html">SUV</a></li>
+                  <li><a href="Truck.html">Truck</a></li>
+                  <li><a href="Muscle.html">Muscle</a></li>
+              </ul>
+          </li>
+          <li class="dropdown">
+              <a href="Rank.html">Rank</a>
+              <ul class="dropdown-menu">
+                  <li><a href="Price.html">Price</a></li>
+                  <li><a href="Range.html">Best Range</a></li>
+                  <li><a href="Speed.html">Top Speed</a></li>
+              </ul>
+          </li>          
+              <li><a href="About.html">About us</a></li>
+          </ul>
+      </div>
+  </nav>
+
+      <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="video/gw.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-content">
+            <h1>Mercedes-Benz G 580 EQ</h1>
+            <p>The iconic offroad prowess</p>
+        </div>
+    </div>
+
+    <!-- Updated Section: Car Info -->
+    <section class="car-info">
+        <h2>Start Price :  9,500,000 BAHT in Thailand </h2>
+        <div class="car-details">
+            <div class="car-image">
+                <img src="pic/g1.png" alt="Mercedes-Benz">
+            </div>
+            <div class="car-specs">
+                <h3>Dimensions and Weight</h3>
+                <ul>
+                    <li><strong>Length :</strong> 4.62 m</li>
+                    <li><strong>Wheelbase :</strong> 289 cm</li>
+                    <li><strong>Width :</strong> 193.1 cm</li>
+                    <li><strong>Height :</strong> 198.6 cm</li>
+                    <li><strong>Curb Weight :</strong> 3,085 kg</li>
+                </ul>
+            </div>
+        </div>
+        <div class="car-details reverse">
+            <div class="car-image">
+                <img src="pic/g2.png" alt="Mercedes-Benz">
+            </div>
+            <div class="car-specs">
+                <h3>Power and Performance</h3>
+                <ul>
+                    <li><strong>Power :</strong> 579 hp (432 kW)</li>
+                    <li><strong>Torque :</strong> 1,165 Nm</li>
+                    <li><strong>0-60 mph :</strong> 4.7 seconds</li>
+                    <li><strong>Top Speed :</strong> limited 180 kmh</li>
+                </ul>
+            </div>
+        </div>
+        <div class="car-details">
+            <div class="car-image">
+                <img src="pic/g3.png" alt="Mercedes-Benz">
+            </div>
+            <div class="car-specs">
+                <h3>Range and Efficiency</h3>
+                <ul>
+                    <li><strong>WLTP Estimated Range :</strong> 456 km</li>
+                    <li><strong>Battery Capacity :</strong> 116 kWh</li>
+                    <li><strong>Fuel Economy :</strong>  28 kWh per 100 km WLTP</li>
+                    <li><strong>Peak Charging Rate :</strong> 200 kW</li>
+                </ul>
+            </div>
+        </div>
+        <div class="car-details reverse">
+            <div class="car-image">
+                <img src="pic/g4.png" alt="Mercedes-Benz">
+            </div>
+            <div class="car-specs">
+                <h3>Chassis and Suspension</h3>
+                <ul>
+                    <li><strong>Front Suspension :</strong>  Double-wishbone suspension</li>
+                    <li><strong>Rear Suspension :</strong>  Rigid rear axle suspension</li>
+                    <li><strong>Steering :</strong> Electromechanical Power Steering</li>
+                    <li><strong>Brake Rotors and Calipers :</strong> 380 x 34 mm at the front with six-piston aluminum alloy and 360 x 28 mm at the rear with four-piston aluminum alloy calipers</li>
+                </ul>
+            </div>
+        </div>
+        <div class="car-details">
+            <div class="car-image">
+                <img src="pic/g5.png" alt="Mercedes-Benz">
+            </div>
+            <div class="car-specs">
+                <h3>Safety</h3>
+                <ul>
+                    <li><strong>Euro NCAP : 5 stars</strong></li>
+                    <li><strong>Airbags :</strong> multiple airbags, including dual front knee airbags and side curtain airbags for both rows</li>
+                    <li><strong>Advanced Driver Assistance Systems (ADAS) :</strong>   Features such as lane-keep assist and autonomous emergency braking (AEB) enhance driving safety</li>
+                    <li><strong>360-Degree Camera :</strong>  Provides a comprehensive view around the vehicle, aiding in parking and maneuvering</li>
+                    <li><strong>Electronic Stability Control :</strong> Helps maintain vehicle stability during dynamic driving conditions</li>
+                    <li><strong>Mercedes-Benz Emergency Call System :</strong>  Automatically alerts emergency services in the event of a serious accident</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="inside-car">
+        <h2>The all-new electric G-Class</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" role="group" aria-label="1 / 4">
+                    <img src="pic/ig2.png" alt="Inside View 1">
+                    <figcaption>
+                        <span>Four-motor Powertrain</span>
+                    </figcaption>
+                </div>
+                <div class="swiper-slide" role="group" aria-label="2 / 5">
+                    <img src="pic/ig1.png" alt="Inside View 2">
+                    <figcaption>
+                        <span>Protective strips</span>
+                    </figcaption>
+                </div>
+                <div class="swiper-slide" role="group" aria-label="3 / 5">
+                    <img src="pic/ig3.png" alt="Inside View 3">
+                    <figcaption>
+                        <span>Design box</span>
+                    </figcaption>
+                </div>
+                <div class="swiper-slide" role="group" aria-label="4 / 5">
+                    <img src="pic/ig4.png" alt="Inside View 3">
+                    <figcaption>
+                        <span>True confessions of an unique offroad icon</span>
+                    </figcaption>
+                </div>
+                <div class="swiper-slide" role="group" aria-label="5 / 5">
+                    <img src="pic/ig5.png" alt="Inside View 3">
+                    <figcaption>
+                        <span>Individuality in its most beautiful form</span>
+                    </figcaption>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+          <a href="#">TERMS OF USE</a>
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">COOKIES SETTING</a>
+          <a href="#">AD CHOICES</a>
+          <a href="#">ACESSIBILITY & CC</a>
+          <a href="#">CONTRACT</a>
+      </div>
+      <p>&copy; 2025 Discovery Company. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
